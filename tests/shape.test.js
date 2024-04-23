@@ -1,6 +1,6 @@
-const { describe } = require("yargs");
 const { Square, Triangle, Circle } = require("../lib/shapes");
 const { default: test } = require("node:test");
+const { describe } = require("yargs");
 
 describe("Circle", () => {
   test("should render svg for a red circle element", () => {
